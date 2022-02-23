@@ -26,10 +26,19 @@
             color: #111;
             text-align:center;
         }
+        p{
+            margin-bottom: 20px;
+        }
         /* Efeito parallax */
-        .caixa1, .caixa2 {
-            border: 1px solid red;
+        .caixa1, .caixa2, .caixa3, .caixa4 {
+            /* border: 1px solid red; */
             height: 100%;
+            /* opacity: 0.6; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
         }
         .caixa1 {
             background-image: url(imagens/imagem1.jpg);
@@ -37,18 +46,68 @@
         .caixa2 {
             background-image: url(imagens/imagem2.jpg);
         }
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
+        .conteudo-titulo{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            color: white;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            transform: translate(-50%,-50%);
+            opacity: 0.75;
+            border-radius: 25px;
+            box-shadow: 3px 5px 12px rgba(17, 17, 17, 0.295);
+        }
     </style>
 </head>
 <body>
     <div class="caixa1">
-        Caixa 1
+        <div class="conteudo-titulo">
+            Projeto de Parallax
+        </div>
     </div>
     <div class="conteudo">
         <h3> Parallax </h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
     </div>
     <div class="caixa2">
-        Caixa 2
+        <div class="conteudo-titulo">
+            Pegando a estrada...
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3> Projeto </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+    </div>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            Curtindo o por do sol...
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3> Estudo </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+    </div>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            Rumo ao desconhecido...
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3> Novidades </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus! Aperiam ipsum fugit eligendi qui autem neque inventore iste suscipit illum quaerat quisquam repudiandae harum, quasi, accusamus nostrum fuga esse?</p>
     </div>
 </body>
 </html>
